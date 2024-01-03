@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-03T08:40:31 GMT-05:00" name="Suite" finished-at="2024-01-03T08:40:58 GMT-05:00" duration-ms="27481">
+    <groups>
+    </groups>
+    <test started-at="2024-01-03T08:40:31 GMT-05:00" name="Test" finished-at="2024-01-03T08:40:58 GMT-05:00" duration-ms="27481">
+      <class name="testCases.EndToEndTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EndToEndTest@7f3b84b8]" started-at="2024-01-03T08:40:31 GMT-05:00" name="setup" finished-at="2024-01-03T08:40:37 GMT-05:00" duration-ms="6113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LogoPrenseceTest()[pri:1, instance:testCases.EndToEndTest@7f3b84b8]" started-at="2024-01-03T08:40:37 GMT-05:00" name="LogoPrenseceTest" finished-at="2024-01-03T08:40:37 GMT-05:00" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoPrenseceTest -->
+        <test-method signature="DropDownTest()[pri:2, instance:testCases.EndToEndTest@7f3b84b8]" started-at="2024-01-03T08:40:37 GMT-05:00" name="DropDownTest" finished-at="2024-01-03T08:40:48 GMT-05:00" duration-ms="10588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropDownTest -->
+        <test-method signature="AboutPageTest()[pri:3, instance:testCases.EndToEndTest@7f3b84b8]" started-at="2024-01-03T08:40:48 GMT-05:00" name="AboutPageTest" finished-at="2024-01-03T08:40:50 GMT-05:00" duration-ms="2071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutPageTest -->
+        <test-method signature="ContactPageTest()[pri:4, instance:testCases.EndToEndTest@7f3b84b8]" started-at="2024-01-03T08:40:50 GMT-05:00" name="ContactPageTest" finished-at="2024-01-03T08:40:58 GMT-05:00" duration-ms="8231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.EndToEndTest@7f3b84b8]" started-at="2024-01-03T08:40:58 GMT-05:00" name="tearDown" finished-at="2024-01-03T08:40:58 GMT-05:00" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
