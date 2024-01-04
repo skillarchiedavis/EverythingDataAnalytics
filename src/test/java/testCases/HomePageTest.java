@@ -21,7 +21,7 @@ public class HomePageTest extends BaseClass{
 	
 	HomePage hp = null;
 	@Test(priority=1)
-	void testLogo()
+	void testLogo() throws InterruptedException
 	{
 		hp = new HomePage(driver);
 		boolean presence =	hp.checkLogoPresence();

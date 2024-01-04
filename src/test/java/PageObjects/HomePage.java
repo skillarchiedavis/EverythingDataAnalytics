@@ -57,7 +57,7 @@ public class HomePage extends BasePage {
 	WebElement Estatelogo;
 	
 	// Action Methods
-	
+	// action.scrollToElement(e); scroll to element
 	public void navi() {
 		WebElement e = driver.findElement(By.xpath("//a[contains(text(),'Data Analytics process')]"));
 		Actions action = new Actions(driver);
@@ -86,8 +86,11 @@ public class HomePage extends BasePage {
 		aboutpage.click();
 	}
 	
-	public boolean checkLogoPresence()
+	public boolean checkLogoPresence() throws InterruptedException
 	{
+		Actions action = new Actions(driver);
+		action.moveToElement(img_logo).perform();
+		Thread.sleep(500);
 		boolean status=((WebElement) img_logo).isDisplayed();
 		return status;
 	}
