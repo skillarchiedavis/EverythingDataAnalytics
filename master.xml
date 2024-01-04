@@ -4,7 +4,9 @@
   <test thread-count="5" name="Test">
 	   <parameter name="browser" value="chrome" />
     <classes>
-      <class name="testCases.EndToEndTest"/>
+		<class name="testCases.HomePageTest"/>
+		<class name="testCases.ContactTest"/>
+	    <class name="testCases.EndToEndTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-03T08:40:31 GMT-05:00" name="Suite" finished-at="2024-01-03T08:40:58 GMT-05:00" duration-ms="27481">
+  <suite started-at="2024-01-03T20:57:01 GMT-05:00" name="Suite" finished-at="2024-01-03T20:57:40 GMT-05:00" duration-ms="39248">
     <groups>
     </groups>
-    <test started-at="2024-01-03T08:40:31 GMT-05:00" name="Test" finished-at="2024-01-03T08:40:58 GMT-05:00" duration-ms="27481">
+    <test started-at="2024-01-03T20:57:01 GMT-05:00" name="Test" finished-at="2024-01-03T20:57:40 GMT-05:00" duration-ms="39248">
       <class name="testCases.EndToEndTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EndToEndTest@7f3b84b8]" started-at="2024-01-03T08:40:31 GMT-05:00" name="setup" finished-at="2024-01-03T08:40:37 GMT-05:00" duration-ms="6113" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.EndToEndTest@2a265ea9]" started-at="2024-01-03T20:57:19 GMT-05:00" name="setup" finished-at="2024-01-03T20:57:21 GMT-05:00" duration-ms="2145" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,27 +18,81 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LogoPrenseceTest()[pri:1, instance:testCases.EndToEndTest@7f3b84b8]" started-at="2024-01-03T08:40:37 GMT-05:00" name="LogoPrenseceTest" finished-at="2024-01-03T08:40:37 GMT-05:00" duration-ms="287" status="PASS">
+        <test-method signature="LogoPrenseceTest()[pri:1, instance:testCases.EndToEndTest@2a265ea9]" started-at="2024-01-03T20:57:21 GMT-05:00" name="LogoPrenseceTest" finished-at="2024-01-03T20:57:22 GMT-05:00" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoPrenseceTest -->
-        <test-method signature="DropDownTest()[pri:2, instance:testCases.EndToEndTest@7f3b84b8]" started-at="2024-01-03T08:40:37 GMT-05:00" name="DropDownTest" finished-at="2024-01-03T08:40:48 GMT-05:00" duration-ms="10588" status="PASS">
+        <test-method signature="DropDownTest()[pri:2, instance:testCases.EndToEndTest@2a265ea9]" started-at="2024-01-03T20:57:22 GMT-05:00" name="DropDownTest" finished-at="2024-01-03T20:57:31 GMT-05:00" duration-ms="9655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DropDownTest -->
-        <test-method signature="AboutPageTest()[pri:3, instance:testCases.EndToEndTest@7f3b84b8]" started-at="2024-01-03T08:40:48 GMT-05:00" name="AboutPageTest" finished-at="2024-01-03T08:40:50 GMT-05:00" duration-ms="2071" status="PASS">
+        <test-method signature="AboutPageTest()[pri:3, instance:testCases.EndToEndTest@2a265ea9]" started-at="2024-01-03T20:57:31 GMT-05:00" name="AboutPageTest" finished-at="2024-01-03T20:57:33 GMT-05:00" duration-ms="1205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AboutPageTest -->
-        <test-method signature="ContactPageTest()[pri:4, instance:testCases.EndToEndTest@7f3b84b8]" started-at="2024-01-03T08:40:50 GMT-05:00" name="ContactPageTest" finished-at="2024-01-03T08:40:58 GMT-05:00" duration-ms="8231" status="PASS">
+        <test-method signature="ContactPageTest()[pri:4, instance:testCases.EndToEndTest@2a265ea9]" started-at="2024-01-03T20:57:33 GMT-05:00" name="ContactPageTest" finished-at="2024-01-03T20:57:40 GMT-05:00" duration-ms="7190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.EndToEndTest@7f3b84b8]" started-at="2024-01-03T08:40:58 GMT-05:00" name="tearDown" finished-at="2024-01-03T08:40:58 GMT-05:00" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.EndToEndTest@2a265ea9]" started-at="2024-01-03T20:57:40 GMT-05:00" name="tearDown" finished-at="2024-01-03T20:57:40 GMT-05:00" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.EndToEndTest -->
+      <class name="testCases.ContactTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.ContactTest@6d4d66d2]" started-at="2024-01-03T20:57:10 GMT-05:00" name="setup" finished-at="2024-01-03T20:57:12 GMT-05:00" duration-ms="2124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formTest()[pri:0, instance:testCases.ContactTest@6d4d66d2]" started-at="2024-01-03T20:57:12 GMT-05:00" name="formTest" finished-at="2024-01-03T20:57:19 GMT-05:00" duration-ms="7286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ContactTest@6d4d66d2]" started-at="2024-01-03T20:57:19 GMT-05:00" name="tearDown" finished-at="2024-01-03T20:57:19 GMT-05:00" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ContactTest -->
+      <class name="testCases.HomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HomePageTest@46cdf8bd]" started-at="2024-01-03T20:57:01 GMT-05:00" name="setup" finished-at="2024-01-03T20:57:06 GMT-05:00" duration-ms="4859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:1, instance:testCases.HomePageTest@46cdf8bd]" started-at="2024-01-03T20:57:06 GMT-05:00" name="testLogo" finished-at="2024-01-03T20:57:06 GMT-05:00" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testLogin()[pri:2, instance:testCases.HomePageTest@46cdf8bd]" started-at="2024-01-03T20:57:06 GMT-05:00" name="testLogin" finished-at="2024-01-03T20:57:07 GMT-05:00" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testsub()[pri:3, instance:testCases.HomePageTest@46cdf8bd]" started-at="2024-01-03T20:57:07 GMT-05:00" name="testsub" finished-at="2024-01-03T20:57:08 GMT-05:00" duration-ms="1431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsub -->
+        <test-method signature="testsub2()[pri:4, instance:testCases.HomePageTest@46cdf8bd]" started-at="2024-01-03T20:57:08 GMT-05:00" name="testsub2" finished-at="2024-01-03T20:57:10 GMT-05:00" duration-ms="1613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsub2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.HomePageTest@46cdf8bd]" started-at="2024-01-03T20:57:10 GMT-05:00" name="tearDown" finished-at="2024-01-03T20:57:10 GMT-05:00" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.HomePageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
